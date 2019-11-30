@@ -1,0 +1,1 @@
+CLI tool for quick starting a GraphQL server with Node, Apollo-Express, Mongoose and MongoDB. 
