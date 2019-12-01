@@ -1,6 +1,6 @@
 {
   "name": "graphgoose",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Quickly create an opinionated Node-ApolloExpress GraphQL API that connects to any MongoDB cluster.",
   "main": "src/index.js",
   "bin": "src/index.js",
