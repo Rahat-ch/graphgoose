@@ -12,6 +12,10 @@ This will install and run graphgoose for you automatically and ask you to choose
 
 The quick start is for simple projects and designed to get you quickly up and running to experiment with GraphQL. The modular start is in beta and built with the intention of giving you a base for starting a GraphQL API for a larger project. 
 
+## Demo
+
+https://www.youtube.com/watch?v=SSzJO1V8nE8
+
 ## Roadmap Items
 
 Note: please do not raise an issue for the following items, if you would like to work on any of them please reach out to rahat on twitter @rahatcodes or by email rahat@rahatcodes.com. 
