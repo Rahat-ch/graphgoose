@@ -1,4 +1,4 @@
-import { ApolloServer, gql } from "apollo-server-express";
+import { ApolloServer } from "apollo-server-express";
 import express from "express";
 import mongoose from "mongoose";
 import dotenv from 'dotenv';
@@ -10,7 +10,7 @@ import resolvers from "./resolvers";
 
 const app = express();
 
-mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true });
+mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true });
 
 const server = new ApolloServer({
   typeDefs,
@@ -20,5 +20,5 @@ const server = new ApolloServer({
 server.applyMiddleware({ app });
 
 app.listen({ port: 4000 }, () => {
-  console.log(`🚀 the server is blasting off!`);
+  console.log(`🚀 Server is blasting off to http://localhost:4000${server.graphqlPath}`);
 });
